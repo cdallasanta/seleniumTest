@@ -28,8 +28,6 @@ namespace SeleniumApp
             string accountTotal = accountElement.Text;
             Console.Write(accountTotal);
             driver.Quit();
-
-            //made a change
         }
     }
 }
